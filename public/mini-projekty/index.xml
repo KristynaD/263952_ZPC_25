@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mini Projekties on Jak vytvořit (téměř) cokoliv</title>
+    <link>http://localhost:1313/mini-projekty/</link>
+    <description>Recent content in Mini Projekties on Jak vytvořit (téměř) cokoliv</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Sep 2025 08:30:08 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/mini-projekty/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. projekt</title>
+      <link>http://localhost:1313/mini-projekty/1_projekt/</link>
+      <pubDate>Wed, 24 Sep 2025 08:30:08 +0200</pubDate>
+      <guid>http://localhost:1313/mini-projekty/1_projekt/</guid>
+      <description>&lt;p&gt;JO&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

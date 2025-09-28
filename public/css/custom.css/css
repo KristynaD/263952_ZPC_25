@@ -1,0 +1,12 @@
+.back-arrow {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;          /* černá barva */
+  font-size: 1.2rem;     /* velikost šipky */
+  transition: color 0.2s, transform 0.2s;
+}
+
+.back-arrow:hover {
+  color: rgb(7, 162, 219);        /* barva při hover */
+  transform: translateX(-3px); /* malý posun vlevo */
+}
