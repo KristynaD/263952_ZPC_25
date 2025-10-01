@@ -4,4 +4,7 @@ draft = false
 title = '2. projekt'
 +++
 
-## Dočasně nedostupné
+
+Ve druhém projektu bylo za úkol vytvoření samolepky.
+![kafe-program](/images/kafe-program.png)
+![kafe](/images/kafe.jpg)
