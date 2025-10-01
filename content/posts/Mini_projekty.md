@@ -14,5 +14,5 @@ weight = 1
 - [5. projekt](/posts/5_projekt/)
 
 
-![Konstrukting](/images/strojar.png)
+![Konstrukting](/263952_ZPC_25/images/strojar.png)
 

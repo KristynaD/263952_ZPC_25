@@ -10,8 +10,7 @@ weight = 1
 
 
 
-![Náhled](/images/náhled.jpg)
-![Pohledy](/images/pohledy.jpg)
-![Postup](/images/postup.jpg)
+![Náhled](/263952_ZPC_25/images/náhled.jpg)
+![Pohledy](/263952_ZPC_25/images/pohledy.jpg)
+![Postup](/263952_ZPC_25/images/postup.jpg)
 
-<img src="/263952_ZPC_25/images/náhled.jpg" alt="Profilovka">
