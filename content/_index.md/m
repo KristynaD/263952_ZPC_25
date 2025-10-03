@@ -4,7 +4,6 @@ title = "Jak vytvořit (téměř) cokoliv"
 
 # Vítejte na mojí stránce 👋
 
-## Moje sekce
-- [Individuální projekt 🔩]({{< relref "posts/individualni_projekt.md" >}})
-- [Mini projekty ⚙️]({{< relref "posts/mini_projekty.md" >}})
-- [O mně]({{< relref "posts/o_mne.md" >}})
+- [Individuální projekt 🔩](/content//posts/individualni_projekt/)
+- [Mini projekty ⚙️](/posts/mini_projekty/)
+- [O mně](/posts/o_mne/)
