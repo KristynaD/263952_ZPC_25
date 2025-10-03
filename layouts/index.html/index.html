@@ -1,0 +1,45 @@
+{{ define "header" }}
+  <!-- VLASTNÍ header jen pro homepage (překryje header z tématu) -->
+  <div style="background:black; color:#aaa; text-align:center; padding:2rem 0;">
+    <h1 style="font-size:5vw; font-weight:400; margin:0;">
+      Jak vytvořit (téměř) cokoliv
+    </h1>
+  </div>
+{{ end }}
+
+{{ define "main" }}
+  <!-- Jen odkazy na 3 sekce -->
+  <div class="pa3 pa4-ns w-100 w-70-ns center">
+    <section class="w-100 mw8">
+
+      <div class="w-100 mb4 relative">
+        <a href='{{ "/posts/individualni_projekt/" | relURL }}'
+           class="link black dim" style="font-size:2rem; font-weight:bold;">
+          Individuální projekt 🔩
+        </a>
+      </div>
+
+      <div class="w-100 mb4 relative">
+        <a href='{{ "/posts/mini_projekty/" | relURL }}'
+           class="link black dim" style="font-size:2rem; font-weight:bold;">
+          Mini projekty ⚙️
+        </a>
+      </div>
+
+      <div class="w-100 mb4 relative">
+        <a href='{{ "/posts/o_mne/" | relURL }}'
+           class="link black dim" style="font-size:2rem; font-weight:bold;">
+          O mně
+        </a>
+      </div>
+
+    </section>
+  </div>
+
+  <!-- (Volitelné) obrázek dole -->
+  <div style="text-align: center; margin: 2rem 0;">
+    <img src='{{ "/images/strojar.png" | relURL }}'
+         alt="Hlavní obrázek"
+         style="max-width: 1000px; width: 100%; height: auto;">
+  </div>
+{{ end }}
