@@ -1,7 +1,7 @@
 +++
 date = '2025-09-23T22:36:12+02:00'
 draft = false
-title = 'O mně '
+title = 'O mně'
 weight = 3
 +++
 
