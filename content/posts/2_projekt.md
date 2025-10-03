@@ -6,5 +6,5 @@ title = '2. projekt'
 
 
 Ve druhém projektu bylo za úkol vytvoření samolepky.
-![kafe-program](/images/kafe-program.png)
-![kafe](/images/kafe.jpg)
+![kafe-program](/263952_ZPC_25/images/kafe-program.png)
+![kafe](/263952_ZPC_25/images/kafe.jpg)

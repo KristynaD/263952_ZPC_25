@@ -9,5 +9,4 @@ title = '1. projekt'
 První projekt spočíval ve vytvoření webové stránky, která bude sloužit jako portfolium pro další projekty.
 
 ![hugo.1](/263952_ZPC_25/images/hugo1.png)
-![hugo.1](https://kristynad.github.io/263952_ZPC_25/images/hugo1.png)
 ![hugo.2](/263952_ZPC_25/images/hugo2.png)
