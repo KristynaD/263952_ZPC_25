@@ -7,11 +7,11 @@ weight = 1
 
  # Zadané projekty
 
- - [1. projekt](/posts/1_projekt/)
-- [2. projekt](/posts/2_projekt/)
-- [3. projekt](/posts/3_projekt/)
-- [4. projekt](/posts/4_projekt/)
-- [5. projekt](/posts/5_projekt/)
+ - [1. projekt]({{< relref "1_projekt.md" >}})
+- [2. projekt]({{< relref "2_projekt.md" >}})
+- [3. projekt]({{< relref "3_projekt.md" >}})
+- [4. projekt]({{< relref "4_projekt.md" >}})
+- [5. projekt]({{< relref "5_projekt.md" >}})
 
 
 
