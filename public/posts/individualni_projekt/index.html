@@ -102,10 +102,11 @@ Automatický zavlažovač rostlin s UV osvětlením
       
   
   
-  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
-    <header class="mt4 w-100 position-relative">
 
-      <div id="sharing" class="mt3 ananke-socials"></div>
+  
+  <article class="w-100 ph3">
+
+    <header class="mt4 w-100 position-relative"><div id="sharing" class="mt3 ananke-socials"></div>
 
       <button id="hamburger" class="hamburger dn-l absolute top-0 right-0 mt3 mr3" aria-label="Open menu">
         <span></span>
@@ -113,33 +114,30 @@ Automatický zavlažovač rostlin s UV osvětlením
         <span></span>
       </button>
 
-<nav id="menu" class="dn absolute top-0 right-0 mt4 mr3 bg-black-80 pa3 br2">
-  <ul class="list pa0 ma0 flex flex-column">
-    <li class="mb2"><a href="/" class="link white hover-blue">Domů</a></li>
-    <li class="mb2"><a href="/263952_ZPC_25/posts/individu%C3%A1ln%C3%AD_projekt/" class="link white hover-blue">Individuální projekt</a></li>
-    <li class="mb2"><a href="/263952_ZPC_25/posts/mini_projekty/" class="link white hover-blue">Mini projekty</a></li>
-    <li class="mb2"><a href="/263952_ZPC_25/posts/o_mn%C4%9B/" class="link white hover-blue">O mně</a></li>
-  </ul>
-</nav>
+      
+      <nav id="menu" class="dn absolute top-0 right-0 mt4 mr3 bg-black-80 pa3 br2">
+        <ul class="list pa0 ma0 flex flex-column">
+          <li class="mb2"><a href='/' class="link white hover-blue">Domů</a></li>
+          <li class="mb2"><a href='/263952_ZPC_25/posts/individualni_projekt/' class="link white hover-blue">Individuální projekt</a></li>
+          <li class="mb2"><a href='/263952_ZPC_25/posts/mini_projekty/' class="link white hover-blue">Mini projekty</a></li>
+          <li class="mb2"><a href='/263952_ZPC_25/posts/o_mne/' class="link white hover-blue">O mně</a></li>
+        </ul>
+      </nav>
 
-   
-<a href="javascript:history.back()" style="display:inline-block; margin-bottom:0.5rem; text-decoration:none; font-weight:bold; color:rgb(0, 0, 0); font-size:1.5rem; transition: color 0.4s;"
-   onmouseover="this.style.color='darkblue';" onmouseout="this.style.color='black';">
-  &larr; Zpět
-</a>
-
-
+      
+      <a href="javascript:history.back()" style="display:inline-block; margin-bottom:0.5rem; text-decoration:none; font-weight:bold; color:#000; font-size:1.5rem; transition: color 0.2s"
+         onmouseover="this.style.color='#444';" onmouseout="this.style.color='#000';">
+        &larr; Zpět
+      </a>
 
       
       
 
       
-      
-
     </header>
 
-    
-  <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray w-100"><h2 id="co-to-bude">Co to bude?</h2>
+  
+<div class="post-content nested-copy-line-height lh-copy f4 nested-links mid-gray w-90 mw8 center ph3 ph4-l"><h2 id="co-to-bude">Co to bude?</h2>
 <h3 id="automatický-zavlažovač-rostlin-s-uv-osvětlením"><em><strong>Automatický zavlažovač rostlin s UV osvětlením</strong></em></h3>
 <p><img src="/263952_ZPC_25/images/nahled.jpg" alt="Náhled">
 <img src="/263952_ZPC_25/images/pohledy.jpg" alt="Pohledy">
@@ -148,43 +146,34 @@ Automatický zavlažovač rostlin s UV osvětlením
   
 </ul>
 <div class="mt6 instapaper_ignoref">
-      
-      
-    </div>
+    
+    
   </div>
+</div>
 
     
-    <aside class="w-30-l mt6-l">
-
-
-
-
-</aside>
+    
 
   </article>
 
   
   <style>
     .hamburger {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      width: 30px;
-      height: 22px;
-      background: none;
-      border: none;
-      cursor: pointer;
-      padding: 0;
-      z-index: 20;
+      display: flex; flex-direction: column; justify-content: space-around;
+      width: 30px; height: 22px; background: none; border: none; cursor: pointer; padding: 0; z-index: 20;
     }
-    .hamburger span {
-      display: block;
-      height: 3px;
-      background: white;
-      border-radius: 2px;
-    }
+    .hamburger span { display: block; height: 3px; background: white; border-radius: 2px; }
+
     #menu.dn { display: none; }
     #menu.flex { display: flex; flex-direction: column; }
+
+     
+    .post-content img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem auto;
+    }
   </style>
 
   
@@ -192,16 +181,12 @@ Automatický zavlažovač rostlin s UV osvětlením
     document.addEventListener("DOMContentLoaded", function() {
       const hamburger = document.getElementById("hamburger");
       const menu = document.getElementById("menu");
-
-      hamburger.addEventListener("click", function() {
-        if (menu.classList.contains("dn")) {
-          menu.classList.remove("dn");
-          menu.classList.add("flex");
-        } else {
-          menu.classList.remove("flex");
-          menu.classList.add("dn");
-        }
-      });
+      if (hamburger && menu) {
+        hamburger.addEventListener("click", function() {
+          menu.classList.toggle("dn");
+          menu.classList.toggle("flex");
+        });
+      }
     });
   </script>
 
