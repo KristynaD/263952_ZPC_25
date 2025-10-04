@@ -106,75 +106,7 @@
 
       
 
-      
-<button id="hamburger" class="hamburger-btn" aria-label="Otevřít menu" aria-expanded="false" aria-controls="menu">
-  <span></span><span></span><span></span>
-</button>
-
-<nav id="menu" class="menu-panel" role="navigation" hidden>
-  <ul class="list pa0 ma0 flex flex-column">
-    <li class="mb2"><a href='/' class="link white hover-blue">Domů</a></li>
-    <li class="mb2"><a href='/posts/individualni_projekt/' class="link white hover-blue">Individuální projekt</a></li>
-    <li class="mb2"><a href='/posts/mini_projekty/' class="link white hover-blue">Mini projekty</a></li>
-    <li class="mb2"><a href='/posts/o_mne/' class="link white hover-blue">O mně</a></li>
-  </ul>
-</nav>
-
-<style>
-  .hamburger-btn{
-    position:fixed; top:12px; right:12px;
-    width:34px; height:28px;
-    background:rgba(255,255,255,.95);
-    border:1px solid rgba(0,0,0,.12);
-    border-radius:8px;
-    display:flex; flex-direction:column; justify-content:space-around; align-items:center;
-    padding:6px; cursor:pointer; z-index:9999;
-    box-shadow:0 2px 10px rgba(0,0,0,.08);
-  }
-  .hamburger-btn span{ display:block; width:100%; height:3px; background:#111; border-radius:2px; }
-
-  .menu-panel{
-    position:fixed; top:56px; right:12px; z-index:10000;
-    background:rgba(0,0,0,.9); color:#fff;
-    padding:12px 14px; border-radius:10px; min-width:200px;
-    display:none;
-  }
-  .menu-panel.open{ display:flex; flex-direction:column; }
-  .menu-panel a{ color:#fff; text-decoration:none; padding:6px 4px; }
-  .menu-panel a:hover{ color:#4da3ff; }
-</style>
-
-<script>
-  (function(){
-    const btn = document.getElementById('hamburger');
-    const menu = document.getElementById('menu');
-    if(!btn || !menu) return;
-
-    function toggle(open){
-      const isOpen = (open !== undefined) ? open : menu.classList.toggle('open');
-      if(open === undefined) {   }
-      else { if(isOpen) menu.classList.add('open'); else menu.classList.remove('open'); }
-      btn.setAttribute('aria-expanded', menu.classList.contains('open') ? 'true' : 'false');
-      menu.hidden = !menu.classList.contains('open');
-    }
-
-    btn.addEventListener('click', () => toggle());
-
-    
-    document.addEventListener('click', (e) => {
-      if(!menu.classList.contains('open')) return;
-      if(e.target === btn || btn.contains(e.target) || menu.contains(e.target)) return;
-      toggle(false);
-    });
-
-    
-    document.addEventListener('keydown', (e) => {
-      if(e.key === 'Escape' && menu.classList.contains('open')) toggle(false);
-    });
-  })();
-</script>
-
-
+     
       
       <a href="javascript:history.back()"
          style="display:inline-block; margin-bottom:0.75rem; text-decoration:none; font-weight:bold; color:#000; font-size:1.2rem; transition: color .2s"
