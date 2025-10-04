@@ -107,43 +107,33 @@
   
   
 
-  
   <article class="w-100 ph3">
-
-    <header class="mt4 w-100 position-relative"><div id="sharing" class="mt3 ananke-socials"></div>
-
-<button id="hamburger" class="hamburger dn-l absolute top-0 right-0 mt3 mr3" aria-label="Open menu">
-  <span></span>
-  <span></span>
-  <span></span>
-</button>
-
-
-<nav id="menu" class="dn absolute top-0 right-0 mt4 mr3 bg-black-80 pa3 br2">
-  <ul class="list pa0 ma0 flex flex-column">
-    <li class="mb2"><a href='/' class="link white hover-blue">Domů</a></li>
-    <li class="mb2"><a href='/posts/individualni_projekt/' class="link white hover-blue">Individuální projekt</a></li>
-    <li class="mb2"><a href='/posts/mini_projekty/' class="link white hover-blue">Mini projekty</a></li>
-    <li class="mb2"><a href='/posts/o_mne/' class="link white hover-blue">O mně</a></li>
-  </ul>
-</nav>
-
-
+    <header class="mt4 w-100 position-relative">
 
       
-      <a href="javascript:history.back()" style="display:inline-block; margin-bottom:0.5rem; text-decoration:none; font-weight:bold; color:#000; font-size:1.5rem; transition: color 0.2s"
+      <button id="hamburger" class="hamburger dn-l absolute top-0 right-0 mt3 mr3" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="menu" class="dn absolute top-0 right-0 mt4 mr3 bg-black-80 pa3 br2">
+        <ul class="list pa0 ma0 flex flex-column">
+          <li class="mb2"><a href='/' class="link white hover-blue">Domů</a></li>
+          <li class="mb2"><a href='/posts/individualni_projekt/' class="link white hover-blue">Individuální projekt</a></li>
+          <li class="mb2"><a href='/posts/mini_projekty/' class="link white hover-blue">Mini projekty</a></li>
+          <li class="mb2"><a href='/posts/o_mne/' class="link white hover-blue">O mně</a></li>
+        </ul>
+      </nav>
+
+      
+      <a href="javascript:history.back()"
+         style="display:inline-block; margin-bottom:0.75rem; text-decoration:none; font-weight:bold; color:#000; font-size:1.2rem; transition: color .2s"
          onmouseover="this.style.color='#444';" onmouseout="this.style.color='#000';">
         &larr; Zpět
       </a>
-
-      
-      
-
-      
     </header>
 
-  
-<div class="post-content nested-copy-line-height lh-copy f4 nested-links mid-gray w-90 mw8 center ph3 ph4-l"><h1 id="tohle-jsou-projekty">Tohle jsou projekty</h1>
+    
+    <div class="post-content nested-copy-line-height lh-copy f4 nested-links mid-gray w-90 mw7 center ph3 ph4-l"><h1 id="tohle-jsou-projekty">Tohle jsou projekty</h1>
 <ul>
 <li><a href="/263952_ZPC_25/posts/1_projekt/">1. projekt</a></li>
 <li><a href="/263952_ZPC_25/posts/2_projekt/">2. projekt</a></li>
@@ -155,46 +145,24 @@
 <ul class="pa0">
   
 </ul>
-<div class="mt6 instapaper_ignoref">
-    
-    
-  </div>
 </div>
-
-    
-    
-
   </article>
 
-  
   <style>
-    .hamburger {
-      display: flex; flex-direction: column; justify-content: space-around;
-      width: 30px; height: 22px; background: none; border: none; cursor: pointer; padding: 0; z-index: 20;
-    }
-    .hamburger span { display: block; height: 3px; background: white; border-radius: 2px; }
-
-    #menu.dn { display: none; }
-    #menu.flex { display: flex; flex-direction: column; }
-
-     
-    .post-content img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin: 1rem auto;
-    }
+    .hamburger{display:flex;flex-direction:column;justify-content:space-around;width:30px;height:22px;background:none;border:none;cursor:pointer;z-index:20}
+    .hamburger span{display:block;height:3px;background:white;border-radius:2px}
+    #menu.dn{display:none} #menu.flex{display:flex;flex-direction:column}
+    .post-content img{max-width:100%;height:auto;display:block;margin:1rem auto}
   </style>
 
-  
   <script>
     document.addEventListener("DOMContentLoaded", function() {
-      const hamburger = document.getElementById("hamburger");
-      const menu = document.getElementById("menu");
-      if (hamburger && menu) {
-        hamburger.addEventListener("click", function() {
-          menu.classList.toggle("dn");
-          menu.classList.toggle("flex");
+      const h = document.getElementById("hamburger");
+      const m = document.getElementById("menu");
+      if (h && m) {
+        h.addEventListener("click", function() {
+          m.classList.toggle("dn");
+          m.classList.toggle("flex");
         });
       }
     });
