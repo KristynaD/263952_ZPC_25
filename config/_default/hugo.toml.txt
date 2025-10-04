@@ -1,11 +1,17 @@
-baseURL = 'https://kristynad.github.io/263952_ZPC_25/'
-languageCode = 'cs-cz'
-title = 'Jak vytvořit (téměř) cokoliv'
-theme = 'ananke'
-publishDir = 'docs'          # => GitHub Pages čte z docs/
+baseURL = "https://kristynad.github.io/263952_ZPC_25/"
+languageCode = "cs-cz"        # správný kód (ne "cz-cs")
+title = "Jak vytvořit (téměř) cokoliv"
+theme = "ananke"
+
+publishDir = "docs"           # GitHub Pages čte z docs/
+relativeURLs = true           # dělej relativní cesty (funguje v subcestě)
+canonifyURLs = true           # zkanonizuj URL podle baseURL
+
+[module.hugoVersion]
+min = "0.128.0"
 
 [params.ananke]
-show_recent_posts = false     # => na homepage nevyhazuj karty s posty
+show_recent_posts = false     # skryje karty postů na homepage
 
 [markup.goldmark.renderer]
 unsafe = false
