@@ -3,5 +3,8 @@ languageCode = 'en-us'
 title = 'Jak vytvořit (téměř) cokoliv'
 theme = "ananke"
 
+[ananke]
+show_recent_posts = false
+
 [markup.goldmark.renderer]
 unsafe = false
