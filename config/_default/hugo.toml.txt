@@ -1,0 +1,11 @@
+baseURL = 'https://kristynad.github.io/263952_ZPC_25/'
+languageCode = 'cs-cz'
+title = 'Jak vytvořit (téměř) cokoliv'
+theme = 'ananke'
+publishDir = 'docs'          # => GitHub Pages čte z docs/
+
+[params.ananke]
+show_recent_posts = false     # => na homepage nevyhazuj karty s posty
+
+[markup.goldmark.renderer]
+unsafe = false
