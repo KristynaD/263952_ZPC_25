@@ -4,4 +4,4 @@ title = 'Jak vytvořit (téměř) cokoliv'
 theme = "ananke"
 
 [markup.goldmark.renderer]
-unsafe = true
+unsafe = false
