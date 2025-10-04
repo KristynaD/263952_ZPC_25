@@ -1,16 +1,14 @@
-
-
-
+<!-- layouts/partials/hamburger.html -->
 <button id="hamburger" class="hamburger-btn" aria-label="Otevřít menu" aria-expanded="false" aria-controls="menu">
   <span></span><span></span><span></span>
 </button>
 
 <nav id="menu" class="menu-panel" role="navigation" hidden>
   <ul class="list pa0 ma0 flex flex-column">
-    <li class="mb2"><a href='/' class="link white hover-blue">Domů</a></li>
-    <li class="mb2"><a href='/posts/individualni_projekt/' class="link white hover-blue">Individuální projekt</a></li>
-    <li class="mb2"><a href='/posts/mini_projekty/' class="link white hover-blue">Mini projekty</a></li>
-    <li class="mb2"><a href='/posts/o_mne/' class="link white hover-blue">O mně</a></li>
+    <li class="mb2"><a href='{{ "/" | relURL }}' class="link white hover-blue">Domů</a></li>
+    <li class="mb2"><a href='{{ "/posts/individualni_projekt/" | relURL }}' class="link white hover-blue">Individuální projekt</a></li>
+    <li class="mb2"><a href='{{ "/posts/mini_projekty/"      | relURL }}' class="link white hover-blue">Mini projekty</a></li>
+    <li class="mb2"><a href='{{ "/posts/o_mne/"              | relURL }}' class="link white hover-blue">O mně</a></li>
   </ul>
 </nav>
 
@@ -46,7 +44,7 @@
 
     function toggle(open){
       const isOpen = (open !== undefined) ? open : menu.classList.toggle('open');
-      if(open === undefined) {   }
+      if(open === undefined) { /* already toggled above */ }
       else { if(isOpen) menu.classList.add('open'); else menu.classList.remove('open'); }
       btn.setAttribute('aria-expanded', menu.classList.contains('open') ? 'true' : 'false');
       menu.hidden = !menu.classList.contains('open');
@@ -54,18 +52,16 @@
 
     btn.addEventListener('click', () => toggle());
 
-    
+    // zavřít při kliknutí mimo
     document.addEventListener('click', (e) => {
       if(!menu.classList.contains('open')) return;
       if(e.target === btn || btn.contains(e.target) || menu.contains(e.target)) return;
       toggle(false);
     });
 
-    
+    // ESC zavře
     document.addEventListener('keydown', (e) => {
       if(e.key === 'Escape' && menu.classList.contains('open')) toggle(false);
     });
   })();
 </script>
-
-

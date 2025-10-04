@@ -5,19 +5,9 @@
   <article class="w-100 ph3">
     <header class="mt4 w-100 position-relative">
 
-      <!-- Hamburger menu vpravo nahoře -->
-      <button id="hamburger" class="hamburger dn-l absolute top-0 right-0 mt3 mr3" aria-label="Open menu">
-        <span></span><span></span><span></span>
-      </button>
+      
 
-      <nav id="menu" class="dn absolute top-0 right-0 mt4 mr3 bg-black-80 pa3 br2">
-        <ul class="list pa0 ma0 flex flex-column">
-          <li class="mb2"><a href='{{ "/" | relURL }}' class="link white hover-blue">Domů</a></li>
-          <li class="mb2"><a href='{{ "/posts/individualni_projekt/" | relURL }}' class="link white hover-blue">Individuální projekt</a></li>
-          <li class="mb2"><a href='{{ "/posts/mini_projekty/"      | relURL }}' class="link white hover-blue">Mini projekty</a></li>
-          <li class="mb2"><a href='{{ "/posts/o_mne/"              | relURL }}' class="link white hover-blue">O mně</a></li>
-        </ul>
-      </nav>
+      {{ partial "hamburger.html" . }}
 
       <!-- Šipka zpět -->
       <a href="javascript:history.back()"
