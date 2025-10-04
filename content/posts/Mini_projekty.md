@@ -1,8 +1,7 @@
 +++
-title = "Mini projekty ⚙️"
-slug = "mini_projekty"
 date = "2025-09-22T16:13:32+02:00"
 draft = false
+title = "Mini projekty ⚙️"
 weight = 2
 +++
 
