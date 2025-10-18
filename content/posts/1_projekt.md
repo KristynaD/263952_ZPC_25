@@ -5,7 +5,6 @@ date = "2025-09-24T08:30:08+02:00"
 draft = false
 +++
 
-# První projekt
 
 První projekt spočíval ve vytvoření webové stránky, která bude sloužit jako portfolium pro další projekty.
 
