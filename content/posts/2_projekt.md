@@ -8,7 +8,6 @@ Druhý projekt spočíval ve vytvoření kartonového modelu a následného slo�
 
 ![LB-model](/263952_ZPC_25/images/LB-model.png)
 ![LB-deska](/263952_ZPC_25/images/LB-deska.png)
-![LB-pc](/263952_ZPC_25/imagesLB-pc.jpg)
 ![LB-p](/263952_ZPC_25/images/LB-p.jpg)
 ![LB1](/263952_ZPC_25/images/LB1.jpg)
 ![LB2](/263952_ZPC_25/images/LB2.jpg)
