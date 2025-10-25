@@ -6,6 +6,7 @@ theme = "ananke"
 [params.ananke]
 show_recent_posts = false
 
-[markup.goldmark.renderer]
-unsafe = false
-
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

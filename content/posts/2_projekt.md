@@ -11,3 +11,4 @@ Druhý projekt spočíval ve vytvoření kartonového modelu a následného slo�
 ![LB-p](/263952_ZPC_25/images/LB-p.jpg)
 ![LB1](/263952_ZPC_25/images/LB1.jpg)
 ![LB2](/263952_ZPC_25/images/LB2.jpg)
+![LBv](/263952_ZPC_25/images/LBv.jpg)
