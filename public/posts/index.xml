@@ -30,39 +30,39 @@
       <description>&lt;p&gt;Jmenuji se Kristýna Doleželová a studuji na strojní fakultě, kde mě nejvíc baví hledat propojení mezi teorií a praxí. Fascinuje mě, jak se technické znalosti dají využít k řešení reálných problémů – ať už jde o konstrukci, modelování nebo analýzu.&lt;/p&gt;&#xA;&lt;p&gt;Vedle školy ráda tvořím vlastní projekty, kde se můžu kreativně vyřádit a zároveň si vyzkoušet to, co se učím. Baví mě hledat nové způsoby, jak věci zlepšit, zjednodušit nebo udělat zajímavější.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>5. projekt</title>
+      <title>Elektro</title>
       <link>http://localhost:1313/263952_ZPC_25/posts/5_projekt/</link>
       <pubDate>Wed, 24 Sep 2025 08:37:50 +0200</pubDate>
       <guid>http://localhost:1313/263952_ZPC_25/posts/5_projekt/</guid>
-      <description>&lt;h2 id=&#34;dočasně-nedostupné&#34;&gt;Dočasně nedostupné&lt;/h2&gt;</description>
+      <description>&lt;p&gt;Zadáním číslo 5 byl mini projekt realizovaný pomocí mikrokontroléru se vstupními a výstupními zařízeními.&#xA;Mým cílem bylo vytvořit minihru, kde postavička běží a přeskakuje kostičky. Nejdříve jsem si udělala prototyp v Tinkercadu, kam jsem pak nahrála i kód. Po několika pokusech mi hra začala fungovat a projekt jsem tak mohla realizovat. Nejdříve bylo potřeba k displeji připájet kolíkovou lištu, kterou jsem pak mohla připojit k nepájivému poli. Následovalo dlouhé zapojování drátků, ke kterým jsem přidala tlačítko na ovládání hry a potenciometr na regulaci jasu. Po dokončení veškerého zapojení jsem nahrála kód, který mi spustil hru.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>4. projekt</title>
+      <title>3D Tisk</title>
       <link>http://localhost:1313/263952_ZPC_25/posts/4_projekt/</link>
       <pubDate>Wed, 24 Sep 2025 08:37:41 +0200</pubDate>
       <guid>http://localhost:1313/263952_ZPC_25/posts/4_projekt/</guid>
-      <description>&lt;h2 id=&#34;dočasně-nedostupné&#34;&gt;Dočasně nedostupné&lt;/h2&gt;</description>
+      <description>&lt;p&gt;Zadáním čtvrtého mini projektu bylo vytvořit a vytisknout jednoduchý 3D mechanismus.&#xA;Výroba mechanismu měla několik podmínek&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Max. 100g filamentu&lt;/li&gt;&#xA;&lt;li&gt;Ruční pohon&lt;/li&gt;&#xA;&lt;li&gt;Jedno volné uložení&lt;/li&gt;&#xA;&lt;li&gt;Jedno uložení s přesahem&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Pro svůj mechanismus jsem si vybrala motor, který jsem nejdříve vymodelovala v Inventoru a pak vytiskla na 3D tiskárně.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/motor-model.png&#34; alt=&#34;motor-model&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/motor-tisk.jpg&#34; alt=&#34;motor-tisk&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/motor1.jpg&#34; alt=&#34;motor1&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/motor2.jpg&#34; alt=&#34;motor2&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/motor3.jpg&#34; alt=&#34;motor3&#34;&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;display: inline-block; margin: 10px;&#34;&gt;&#xA;    &lt;video controls muted style=&#34;width: 100%; max-width: 800px; display: block; margin: 0 auto;&#34;&gt;&#xA;        &lt;source src=&#34;http://localhost:1313/263952_ZPC_25/videos/motor-video.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xA;        Váš prohlížeč nepodporuje přehrávání videa.&#xA;    &lt;/video&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
-      <title>3. projekt</title>
+      <title>3D sken</title>
       <link>http://localhost:1313/263952_ZPC_25/posts/3_projekt/</link>
       <pubDate>Wed, 24 Sep 2025 08:37:35 +0200</pubDate>
       <guid>http://localhost:1313/263952_ZPC_25/posts/3_projekt/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/motor-model.png&#34; alt=&#34;motor-model&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/motor-tisk.jpg&#34; alt=&#34;motor-tisk&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/motor1.jpg&#34; alt=&#34;motor1&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/motor2.jpg&#34; alt=&#34;motor2&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/motor3.jpg&#34; alt=&#34;motor3&#34;&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;display: inline-block; margin: 10px;&#34;&gt;&#xA;    &lt;video controls muted style=&#34;width: 100%; max-width: 800px; display: block; margin: 0 auto;&#34;&gt;&#xA;        &lt;source src=&#34;http://localhost:1313/263952_ZPC_25/videos/motor-video.mp4&#34; type=&#34;video/mp4&#34;&gt;&#xA;        Váš prohlížeč nepodporuje přehrávání videa.&#xA;    &lt;/video&gt;&#xA;&lt;/div&gt;</description>
+      <description>&lt;p&gt;Třetí mini projekt obsahoval naskenování objektu pomocí 3D skeneru SimScan a následného zpracování.&#xA;Mým skenovacím objektem byl plastový květináč tištěný z recyklovaného plastu. Nejdříve jsem na květináč nalepila skenovací body a položila jsem ho na otáčející se desku. Pak bylo potřeba zkalibrovat sken pomocí kalibrovací destičky. Po kalibraci jsem si nastavila měřící parametry v programu a naskenovala body na objektu a pak i samotný objekt. Sken jsem uložila a upravila v programu GOM Inspect.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>2. projekt</title>
+      <title>Řezačka</title>
       <link>http://localhost:1313/263952_ZPC_25/posts/2_projekt/</link>
       <pubDate>Wed, 24 Sep 2025 08:37:04 +0200</pubDate>
       <guid>http://localhost:1313/263952_ZPC_25/posts/2_projekt/</guid>
-      <description>&lt;p&gt;Druhý projekt spočíval ve vytvoření kartonového modelu a následného složení.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/LB-model.png&#34; alt=&#34;LB-model&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/LB-deska.png&#34; alt=&#34;LB-deska&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/LB-p.jpg&#34; alt=&#34;LB-p&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/LB1.jpg&#34; alt=&#34;LB1&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/LB2.jpg&#34; alt=&#34;LB2&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/LBv.jpg&#34; alt=&#34;LBv&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Druhý mini projekt měl být realizovaný pomocí vinylové řezačky nebo řezacího ploteru. Můj plán spočíval ve vytvoření modelu London Bridge a následného vyřezání z kartonu. Model jsem vytvořila v Inventoru a pak jsem nechala vyřezat jednotlivé díly na řezačce. Poté už jsem jen model sestavila dohromady.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/LB-model.png&#34; alt=&#34;LB-model&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/LB-deska.png&#34; alt=&#34;LB-deska&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/LB-p.jpg&#34; alt=&#34;LB-p&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/LB1.jpg&#34; alt=&#34;LB1&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/LB2.jpg&#34; alt=&#34;LB2&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/LBv.jpg&#34; alt=&#34;LBv&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>1. projekt</title>
+      <title>Webová stránka</title>
       <link>http://localhost:1313/263952_ZPC_25/posts/1_projekt/</link>
       <pubDate>Wed, 24 Sep 2025 08:30:08 +0200</pubDate>
       <guid>http://localhost:1313/263952_ZPC_25/posts/1_projekt/</guid>
-      <description>&lt;p&gt;První projekt spočíval ve vytvoření webové stránky, která bude sloužit jako portfolium pro další projekty.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/hugo1.png&#34; alt=&#34;hugo.1&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/hugo2.png&#34; alt=&#34;hugo.2&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;První mini projekt spočíval ve vytvoření webové stránky, která má sloužit jako portfolio pro všechny projekty.&#xA;Tento web byl vytvořený pomocí statického generátoru stránek Hugo. Jako šablonu jsem zvlolila Ananke, kterou jsem postupně upravovala a přizpůsobovala potřebám webu. Jako užitečné funkce navíc jsem přidala šipky zpět a hamburger menu. Celou stránku jsem nakonec nahrála na GitHub.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/hugo1.png&#34; alt=&#34;hugo.1&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/263952_ZPC_25/images/hugo2.png&#34; alt=&#34;hugo.2&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,10 +1,10 @@
 +++
 date = '2025-09-24T08:37:04+02:00'
 draft = false
-title = '2. projekt'
+title = 'Řezačka'
 +++
 
-Druhý projekt spočíval ve vytvoření kartonového modelu a následného složení.
+Druhý mini projekt měl být realizovaný pomocí vinylové řezačky nebo řezacího ploteru. Můj plán spočíval ve vytvoření modelu London Bridge a následného vyřezání z kartonu. Model jsem vytvořila v Inventoru a pak jsem nechala vyřezat jednotlivé díly na řezačce. Poté už jsem jen model sestavila dohromady. 
 
 ![LB-model](/263952_ZPC_25/images/LB-model.png)
 ![LB-deska](/263952_ZPC_25/images/LB-deska.png)
