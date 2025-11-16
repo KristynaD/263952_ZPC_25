@@ -4,7 +4,7 @@ draft = false
 title = 'Elektro'
 +++
 
-Zadáním číslo 5 byl mini projekt realizovaný pomocí mikrokontroléru se vstupními a výstupními zařízeními.
+Zadáním číslo pět byl mini projekt realizovaný pomocí mikrokontroléru se vstupním a výstupním zařízením.
 Mým cílem bylo vytvořit minihru, kde postavička běží a přeskakuje kostičky. Nejdříve jsem si udělala prototyp v Tinkercadu, kam jsem pak nahrála i kód. Po několika pokusech mi hra začala fungovat a projekt jsem tak mohla realizovat. Nejdříve bylo potřeba k displeji připájet kolíkovou lištu, kterou jsem pak mohla připojit k nepájivému poli. Následovalo dlouhé zapojování drátků, ke kterým jsem přidala tlačítko na ovládání hry a potenciometr na regulaci jasu. Po dokončení veškerého zapojení jsem nahrála kód, který mi spustil hru. 
 
 

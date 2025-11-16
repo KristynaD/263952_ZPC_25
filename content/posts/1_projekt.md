@@ -6,8 +6,8 @@ draft = false
 +++
 
 
-První mini projekt spočíval ve vytvoření webové stránky, která má sloužit jako portfolio pro všechny projekty. 
-Tento web byl vytvořený pomocí statického generátoru stránek Hugo. Jako šablonu jsem zvlolila Ananke, kterou jsem postupně upravovala a přizpůsobovala potřebám webu. Jako užitečné funkce navíc jsem přidala šipky zpět a hamburger menu. Celou stránku jsem nakonec nahrála na GitHub.
+První mini projekt spočíval ve vytvoření webové stránky, která má sloužit jako portfolio pro další projekty. 
+Tento web byl vytvořený pomocí statického generátoru stránek Hugo. Jako šablonu jsem zvlolila Ananke, kterou jsem postupně upravovala a přizpůsobovala potřebám webu. Celou stránku jsem nakonec nahrála na GitHub.
 
 
 ![hugo.1](/263952_ZPC_25/images/hugo1.png)

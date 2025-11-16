@@ -5,7 +5,6 @@ title = "Mini projekty ⚙️"
 weight = 2
 +++
 
-# Tohle jsou projekty
 
 - [1. projekt](/263952_ZPC_25/posts/1_projekt/)
 - [2. projekt](/263952_ZPC_25/posts/2_projekt/)

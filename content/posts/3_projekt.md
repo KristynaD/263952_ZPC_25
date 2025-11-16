@@ -12,3 +12,5 @@ Mým skenovacím objektem byl plastový květináč tištěný z recyklovaného 
 ![sken1](/263952_ZPC_25/images/sken1.jpg)
 ![sken2](/263952_ZPC_25/images/sken2.jpg)
 ![sken-pc](/263952_ZPC_25/images/sken-pc.jpg)
+![rozmer1](/263952_ZPC_25/images/rozmer1.png)
+![rozmer2](/263952_ZPC_25/images/rozmer2.png)

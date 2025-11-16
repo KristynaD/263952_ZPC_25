@@ -13,7 +13,7 @@ Výroba mechanismu měla několik podmínek
   -  Jedno uložení s přesahem
 
 Pro svůj mechanismus jsem si vybrala motor, který jsem nejdříve vymodelovala v Inventoru a pak vytiskla na 3D tiskárně.
-
+Hmotnost mého mechanismu činí 51 gramů.
 
 ![motor-model](/263952_ZPC_25/images/motor-model.png)
 ![motor-tisk](/263952_ZPC_25/images/motor-tisk.jpg)
